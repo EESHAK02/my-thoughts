@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perfect, In Theory - Between Versions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .essay-hero {
+      padding: 11rem 3rem 4rem;
+      max-width: 780px;
+      margin: 0 auto;
+    }
+
+    .essay-hero .essay-number {
+      display: block;
+      margin-bottom: 1.5rem;
+    }
+
+    .essay-main-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.8rem, 6vw, 5rem);
+      font-weight: 300;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--text);
+      margin-bottom: 1.5rem;
+    }
+
+    .essay-main-title em {
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    .essay-byline {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      margin-bottom: 3rem;
+    }
+
+    .essay-divider {
+      width: 40px;
+      height: 1px;
+      background: var(--accent-soft);
+      opacity: 0.4;
+      margin-bottom: 4rem;
+    }
+
+    .essay-body {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 3rem 8rem;
+    }
+
+    .essay-body p {
+      font-family: var(--font-body);
+      font-size: 1.2rem;
+      font-weight: 300;
+      line-height: 1.9;
+      color: var(--text-muted);
+      margin-bottom: 1.8rem;
+    }
+
+    .essay-body p:first-child::first-letter {
+      font-family: var(--font-display);
+      font-size: 4rem;
+      font-weight: 400;
+      float: left;
+      line-height: 0.8;
+      margin: 0.15em 0.08em 0 0;
+      color: var(--accent);
+    }
+
+    .essay-body h2 {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      font-weight: 400;
+      font-style: italic;
+      color: var(--text);
+      margin: 3rem 0 1.2rem;
+      letter-spacing: -0.01em;
+    }
+
+    .essay-body blockquote {
+      border-left: 1px solid var(--accent-soft);
+      margin: 2.5rem 0;
+      padding: 0.5rem 0 0.5rem 2rem;
+      font-style: italic;
+      color: var(--text-muted);
+      opacity: 0.8;
+    }
+
+    .essay-end-mark {
+      text-align: center;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      color: var(--text-dim);
+      margin-top: 4rem;
+      padding-top: 3rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .essay-nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 2.5rem 3rem;
+      border-top: 1px solid var(--border);
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    .essay-nav a {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-soft);
+      transition: color 0.2s;
+    }
+
+    .essay-nav a:hover {
+      color: var(--accent);
+    }
+
+    @media (max-width: 900px) {
+      .essay-hero,
+      .essay-body,
+      .essay-nav {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="grain"></div>
+
+  <nav>
+    <a href="../index.html" class="nav-logo">Between Versions</a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../essays.html">Essays</a>
+    </div>
+  </nav>
+
+  <header class="essay-hero">
+    <span class="essay-number essay-number--hero">001</span>
+    <h1 class="essay-main-title">Perfect, <em>In Theory</em></h1>
+    <!-- CHANGE: Update this to the date you publish -->
+    <p class="essay-byline">March 2026</p>
+    <div class="essay-divider"></div>
+  </header>
+
+  <main class="essay-body">
+
+    <p>
+      Every idea, before it meets the world, is perfect. 
+      Not perfect in the way of achieving perfection via revision - but in the way that untested things always are. Sealed. Whole. Quietly certain of itself. 
+      You turn it over multiple times in your mind and it holds from every angle. 
+      The logic is clean, the vision is clear, and somewhere in the back of your head a version of you is already sorted.
+    </p>
+
+    <p>
+      Then you begin. And the idea, which was so elegant in your notes, meets reality - the plot twist - the curveballs!
+    </p>
+
+    <p>
+      I've experienced this enough times now, across enough different areas, to find it almost funny. 
+      An app I was building a couple of months ago felt such a hit in my head that I was practically narrating the launch announcement before a single line of code was written. 
+      A writing project I started felt so well-structured in theory that I'd went on to promote it before I'd finished the first chapter (no I'm not talking about this blog xD). 
+      Plans, ideas, projects - same story every time. The comfort arrives first, only to make space for what's uninvinted - the chaos.
+    </p>
+
+    <h2>The comfort is not nothing</h2>
+
+    <p>
+      There's something worth noticing here - that comfort isn't entirely a lie, definitely not a delusion. 
+      The idea really does work - possibly purely on the scribbles of my notebook, or well, maybe in Claude's chats. 
+      The problem isn't that the notion is wrong. The problem is that it belongs to a version that may never actually exist. 
+      The idea in our head and it becoming a reality are sometimes like parallel universes - but I guess taking the first step to converge them is where we sneak out of our comfort zone. 
+    </p>
+
+    <p>
+      What strikes me is how seamlessly we tend to skip over this transition. There's no obvious moment where you think - okay, now I'm moving from imagining to building. 
+      We just carry the comfort, right into the mess, and are left wondering how the mess got messier.
+    </p>
+
+    <blockquote>
+      The idea was perfect. It's just that the idea was perhaps never the final thing.
+    </blockquote>
+
+    <h2>Then the confusion...</h2>
+
+    <p>
+      The confusion that follows has a personality of its own. It doesn't sting - it's often soft, mostly in your head, and that makes it more disorienting. 
+      The vision is still there, but it no longer maps cleanly onto what you're actually holding. You're in between. 
+      Between the idea you started with and whatever this is becoming.
+    </p>
+
+    <p>
+      I've noticed I spend a lot of time in this space. Longer than I'd like to admit. And the strange thing is that in the middle of the confusion, you can still picture the clean version. 
+      It sits there, just out of reach - where you can safely say - so close, yet so far.
+    </p>
+
+    <p>
+      So you rethink. Not dramatically, not a full teardown, usually. More like a slow turning. 
+      You let go of the version that lived only in your head, and you start paying attention to the one you are actually working on, only to question yourself - 
+      What is this? What does it want to be, now that it's real and imperfect and stubbornly itself?
+    </p>
+
+    <h2>Version 1.0</h2>
+
+    <p>
+      I figured out there's a reason software uses version numbers, and it's not just because developers love numbers - but because it quietly acknowledges something real. 
+      Whatever you're looking at right now is neither the first nor the last word - it's a version - a work in progress. It came from somewhere and it's going somewhere. 
+      The number is representative of where we are, not where we're ending up.
+    </p>
+
+    <p>
+      Version 1.0 is the first thing that's grounded in reality, living beyond one's thoughts. It works, sort of. It probably doesn't, in the exact way you envisioned. 
+      And that gap, although it may seem like, isn't a failure - it's the turning point - the moment where you stop holding on to your idea of perfect, and start building up on the imperfections. 
+    </p>
+
+    <p>
+      Every 1.0 I've come across, in any form - an app, a plan, a piece of writing - there's one thing that's common - it's a beginning of something, but perhaps not the thing you saw coming.
+    </p>
+
+    <p>
+      Which is maybe the whole point of beginning at all - learn, unlearn, relearn - and above all, embrace the journey of adaptation.
+    </p>
+
+    <div class="essay-end-mark">— end —</div>
+
+  </main>
+
+  <div class="essay-nav">
+    <a href="../essays.html">← All essays</a>
+    <!-- Update this link once you have a second essay -->
+    <span style="opacity: 0.3; font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase;">Next essay →</span>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-title">Between Versions</p>
+      <p class="footer-sub">Writing from the middle of things.</p>
+      <p class="footer-copy">No archives. No conclusions. Just the ongoing edit.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
