@@ -30,7 +30,7 @@ No advice. No conclusions. No claims. Just writing from that 'figuring out' spac
 
 This site is built with plain HTML and CSS. Just words and the simplest possible structure to hold them.
 
-It lives on [Netlify](https://netlify.com) and is updated whenever there's something new I come across.
+It lives on [Netlify](https://writerscanvas.netlify.app/) and is updated whenever there's something new I come across.
 
 ---
 
